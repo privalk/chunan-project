@@ -1,0 +1,4 @@
+interface:
+  display_name: "淳安三中展厅界面风格"
+  short_description: "为淳安三中展厅前端复用温润中式、校史展陈与大屏触控界面规范"
+  default_prompt: "Use $chunan-exhibition-ui to design a new exhibition touchscreen page consistent with the signature terminal."

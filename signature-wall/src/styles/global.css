@@ -1,0 +1,25 @@
+:root {
+  --ca-paper: #f6f3ec;
+  --ca-paper-soft: #f5f2ea;
+  --ca-surface: #fbfaf6;
+  --ca-canvas: #fffefb;
+  --ca-ink: #30312d;
+  --ca-ink-soft: #57534b;
+  --ca-muted: #756f64;
+  --ca-quiet: #9b9387;
+  --ca-red: #9f2925;
+  --ca-green: #6a8873;
+  --ca-border: #ddd6ca;
+  --ca-font-display: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  --ca-font-ui: Inter, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ca-ink);
+  background: var(--ca-paper);
+  font-family: var(--ca-font-ui);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+html, body, #app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { background: var(--ca-paper); -webkit-font-smoothing: antialiased; }
+button, input { font: inherit; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }

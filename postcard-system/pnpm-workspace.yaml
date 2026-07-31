@@ -1,0 +1,10 @@
+allowBuilds:
+  electron: true
+  electron-winstaller: false
+  esbuild: true
+onlyBuiltDependencies:
+  - electron
+  - electron-builder
+overrides:
+  postcss: 8.5.21
+  app-builder-lib>@electron/get: 4.0.3
